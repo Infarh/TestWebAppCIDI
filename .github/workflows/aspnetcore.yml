@@ -37,4 +37,5 @@ jobs:
     - uses: actions/download-artifact@master
       with:
         name: release-artifact
+        path: TestWebAppCIDI/bin/Release/netcoreapp2.2/TestWebAppCIDI.dll
     - run: cat release-artifact
