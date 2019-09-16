@@ -38,4 +38,4 @@ jobs:
       with:
         name: win-release
         path: d:\a\TestWebAppCIDI\TestWebAppCIDI\TestWebAppCIDI\bin\Release\netcoreapp2.2
-    -run: cat d:\a\TestWebAppCIDI\TestWebAppCIDI\TestWebAppCIDI\bin\Release\netcoreapp2.2
+    - run: cat d:\a\TestWebAppCIDI\TestWebAppCIDI\TestWebAppCIDI\bin\Release\netcoreapp2.2
