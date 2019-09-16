@@ -36,5 +36,5 @@ jobs:
       run: dotnet build --configuration Release
     - uses: actions/upload-artifact@master
       with:
-        name: release-artifact
+        name: release-${{ matrix.os }}
         path: TestWebAppCIDI/bin/Release/netcoreapp2.2
