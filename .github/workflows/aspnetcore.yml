@@ -36,6 +36,5 @@ jobs:
       run: dotnet build --configuration Release
     - uses: actions/download-artifact@master
       with:
-        name: win-release
-        path: TestWebAppCIDI/TestWebAppCIDI/TestWebAppCIDI/bin/Release/netcoreapp2.2
-    - run: cat TestWebAppCIDI/TestWebAppCIDI/TestWebAppCIDI/bin/Release/netcoreapp2.2
+        name: release-artifact
+    - run: cat release-artifact
