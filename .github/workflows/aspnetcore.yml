@@ -34,3 +34,8 @@ jobs:
         dotnet-version: 2.2.108
     - name: Build with dotnet
       run: dotnet build --configuration Release
+    - uses: actions/download-artifact@master
+      with:
+        name: win-release
+        path: d:\a\TestWebAppCIDI\TestWebAppCIDI\TestWebAppCIDI\bin\Release\netcoreapp2.2
+    -run: cat d:\a\TestWebAppCIDI\TestWebAppCIDI\TestWebAppCIDI\bin\Release\netcoreapp2.2
