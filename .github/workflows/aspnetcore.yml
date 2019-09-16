@@ -1,9 +1,6 @@
 name: ASP.NET Core CI
 
-on:
-  pull_request:
-    branches:
-    - master
+on: [push]
 
 jobs:
   test:
