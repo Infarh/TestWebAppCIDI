@@ -37,4 +37,4 @@ jobs:
     - uses: actions/upload-artifact@master
       with:
         name: release-artifact
-        path: TestWebAppCIDI/bin/Release/netcoreapp2.2/TestWebAppCIDI.dll
+        path: TestWebAppCIDI/bin/Release/netcoreapp2.2
